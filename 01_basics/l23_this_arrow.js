@@ -9,11 +9,11 @@ const user={
     }
 
 }
-// user.welcome()
-// user.username="sam"
-// user.welcome()
+user.welcome()
+user.username="sam"
+user.welcome()
 
-// console.log(this);
+console.log(this);
 
 // function chai(){
 //     let username="hitesh"

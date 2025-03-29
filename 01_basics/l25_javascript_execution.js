@@ -12,8 +12,9 @@
 // }
 //let result1=addnum()...;
 //let result2=addnum()....
-//1. GEC
-//2. MCP(val1->undefined,....,result1->undefined,result2->undefined)
+//1. GEC(global execution context)
+//2. MCP(memory creation phase)
+// (val1->undefined,....,result1->undefined,result2->undefined)
 //3.Execution phase(val1->10(given value))
 //  in the last two lines it will be consisting of two phases, the memory creation phase(for the passed arguments) and the execution phase of the function(num1->val1,num2->val2,total->num1+num2)
 //and the total value is returned in the global executional context
